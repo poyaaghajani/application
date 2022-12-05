@@ -44,38 +44,25 @@ class ChooseScreen extends StatelessWidget {
                 child: const Divider(thickness: 2, color: Colors.grey),
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height / 5.5,
+                height: MediaQuery.of(context).size.height / 6,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ChoseModeContainer(
-                    imagePerson: Image.asset('images/man2.png'),
+                    imagePerson: Image.asset('assets/images/man2.png'),
                     title: "کاربر میهمان",
                     helptext: "راهنمای کاربر میهمان",
+                    icon: Icons.keyboard_arrow_left_outlined,
+                    onPressed_Navigator: () {},
                     onPressed_seePdf: () async {
                       final file =
                           await PDFapi.loadAsset("assets/pdf/check.pdf");
                       OpenFile.open(file.path);
                     },
-                    circularBox: Container(
-                      padding: const EdgeInsets.all(15),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: Colors.cyan[600],
-                      ),
-                      child: GestureDetector(
-                        onTap: () {},
-                        child: Icon(
-                          Icons.keyboard_arrow_left_outlined,
-                          color: Colors.white,
-                          size: MediaQuery.of(context).size.width / 16,
-                        ),
-                      ),
-                    ),
                   ),
                   ChoseModeContainer(
-                    imagePerson: Image.asset('images/man1.png'),
+                    imagePerson: Image.asset('assets/images/man1.png'),
                     title: "کاربر اصلی",
                     helptext: "راهنمای کاربر اصلی",
                     onPressed_seePdf: () async {
@@ -83,21 +70,7 @@ class ChooseScreen extends StatelessWidget {
                           await PDFapi.loadAsset("assets/pdf/check.pdf");
                       OpenFile.open(file.path);
                     },
-                    circularBox: Container(
-                      padding: const EdgeInsets.all(15),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: Colors.cyan[600],
-                      ),
-                      child: GestureDetector(
-                        onTap: () {},
-                        child: Icon(
-                          Icons.keyboard_arrow_right_outlined,
-                          color: Colors.white,
-                          size: MediaQuery.of(context).size.width / 16,
-                        ),
-                      ),
-                    ),
+                    icon: Icons.keyboard_arrow_right_outlined,
                   ),
                 ],
               ),
