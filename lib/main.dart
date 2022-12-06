@@ -1,4 +1,5 @@
 import 'package:application/pages/choose_screen/choose_view.dart';
+import 'package:application/pages/make_contract/makecontract_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -11,7 +12,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(
             name: PageRoutes.chooseScreen, page: () => const ChooseScreen()),
+        GetPage(
+            name: PageRoutes.makeContract, page: () => const MakeContract()),
       ],
     );
   }

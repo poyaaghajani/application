@@ -5,8 +5,11 @@ import 'package:application/constants/colors.dart';
 import 'package:application/constants/configs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 
 import 'package:open_file/open_file.dart';
+
+import '../../components/alret_dialogs/chose_guest/chose_guest_dialog.dart';
 
 class ChooseScreen extends StatelessWidget {
   const ChooseScreen({Key? key}) : super(key: key);
@@ -54,7 +57,11 @@ class ChooseScreen extends StatelessWidget {
                     title: "کاربر میهمان",
                     helptext: "راهنمای کاربر میهمان",
                     icon: Icons.keyboard_arrow_left_outlined,
-                    onPressed_Navigator: () {},
+                    onPressed_Navigator: () {
+                      // Get.toNamed(PageRoutes.makeContract);
+
+                      Get.dialog(ChoseGuestDialog(), barrierDismissible: true);
+                    },
                     onPressed_seePdf: () async {
                       final file =
                           await PDFapi.loadAsset("assets/pdf/check.pdf");

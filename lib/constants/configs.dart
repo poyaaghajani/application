@@ -9,6 +9,7 @@ class PageRoutes {
   PageRoutes._();
 
   static const String chooseScreen = "/choosescreen";
+  static const String makeContract = "/makeContract";
 }
 
 class PDFapi {
