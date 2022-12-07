@@ -74,6 +74,7 @@ class _MakeContractState extends State<MakeContract>
         ),
         body: TabBarView(
           controller: myTabController.tabController,
+          physics: const NeverScrollableScrollPhysics(),
           children: [
             Center(
               child: Stack(
