@@ -10,6 +10,7 @@ class PageRoutes {
 
   static const String chooseScreen = "/choosescreen";
   static const String makeContract = "/makeContract";
+  static const String applyingcounseling = "/applyingcounseling";
 }
 
 class PDFapi {

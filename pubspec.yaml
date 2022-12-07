@@ -37,6 +37,8 @@ dependencies:
   get: ^4.6.5
   open_file: ^3.2.1
   path_provider: ^2.0.11
+  dotted_border: ^2.0.0+3
+  image_picker: ^0.8.6
 
 dev_dependencies:
   flutter_test:
