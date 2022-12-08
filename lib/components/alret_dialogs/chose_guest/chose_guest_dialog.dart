@@ -1,4 +1,5 @@
 import 'package:application/components/container/chose_guest_alretdialog.dart';
+import 'package:application/constants/colors.dart';
 import 'package:application/constants/configs.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -10,6 +11,11 @@ class ChoseGuestDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return WillPopScope(
         child: AlertDialog(
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(
+              Radius.circular(20.0),
+            ),
+          ),
           title: Text(
             "درخواست خود را وارد کنید",
             textAlign: TextAlign.center,
@@ -17,9 +23,9 @@ class ChoseGuestDialog extends StatelessWidget {
                 fontWeight: FontWeight.w600,
                 fontSize: MediaQuery.of(context).size.height / 40),
           ),
-          backgroundColor: Colors.grey,
+          backgroundColor: getColors.background,
           content: Padding(
-            padding: EdgeInsets.only(top: 15, bottom: 10),
+            padding: const EdgeInsets.only(top: 15, bottom: 10),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -54,6 +60,7 @@ class ChoseGuestDialog extends StatelessWidget {
                     child: Icon(
                       Icons.arrow_back,
                       size: MediaQuery.of(context).size.height / 30,
+                      color: getColors.darkBlue,
                     ),
                   ),
                 )

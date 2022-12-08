@@ -192,7 +192,9 @@ class _ApplyingCounselingState extends State<ApplyingCounseling> {
                       hintStyle: TextStyle(),
                       hintText: "موبایل",
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(15)),
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(15),
+                        ),
                       ),
                     ),
                     controller: phoneNumberController,
@@ -201,7 +203,7 @@ class _ApplyingCounselingState extends State<ApplyingCounseling> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20.0),
+                  padding: const EdgeInsets.only(top: 40.0),
                   child: PrimaryButton(
                     text: "تایید",
                     onPressed: () {
@@ -211,9 +213,6 @@ class _ApplyingCounselingState extends State<ApplyingCounseling> {
                     },
                   ),
                 ),
-                SizedBox(
-                  height: 20,
-                )
               ],
             ),
           ),
