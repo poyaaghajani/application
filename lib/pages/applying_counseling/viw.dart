@@ -56,7 +56,7 @@ class _ApplyingCounselingState extends State<ApplyingCounseling> {
                 SizedBox(
                   height: MediaQuery.of(context).size.height / 40,
                 ),
-                Padding(
+                const Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: Align(
                     alignment: Alignment.topRight,

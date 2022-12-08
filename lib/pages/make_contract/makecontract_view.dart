@@ -518,7 +518,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: childCountController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -564,7 +564,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: jobTitleController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -610,7 +610,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: addressController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -656,7 +656,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: phoneController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -702,7 +702,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: bankController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -748,7 +748,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: baseController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1016,7 +1016,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: monthlyPayController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1062,7 +1062,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: helpMoneyController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1108,7 +1108,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: helpMoney2Controller,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1154,7 +1154,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: homeController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1200,7 +1200,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: goAndComeController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1246,7 +1246,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: foodController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1292,7 +1292,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: attraction1Controller,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1338,7 +1338,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: attraction2Controller,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
@@ -1384,7 +1384,7 @@ class _MakeContractState extends State<MakeContract>
                                       controller: otherController,
                                       validator: (value) {
                                         if (value == null || value.isEmpty) {
-                                          return 'شماره کارگاه را وارد کنید';
+                                          return 'لطفا پر کنید';
                                         }
 
                                         return null;
